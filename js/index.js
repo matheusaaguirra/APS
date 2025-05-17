@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Exemplo: Menu responsivo (hamburger)
     const header = document.querySelector(".itau-header");
     const nav = document.querySelector(".main-nav");
-    const logo = document.querySelector(".itau-header .logo")
+    const logo = document.querySelector(".itau-header .logo");
 
     if (header && nav) {
         const menuButton = document.createElement("button");
