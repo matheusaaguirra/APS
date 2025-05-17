@@ -49,55 +49,5 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
-
-    // Adicionar estilo para o menu-toggle e nav.active no CSS se não existir
-    // Exemplo de como adicionar dinamicamente, mas idealmente estaria no CSS:
-    const styleSheet = document.createElement("style");
-    styleSheet.type = "text/css";
-    styleSheet.innerText = `
-        .menu-toggle {
-            display: none; /* Escondido em telas maiores */
-            background: none;
-            border: none;
-            color: var(--cor-texto-sobre-laranja);
-            font-size: 2em;
-            cursor: pointer;
-            order: -1; /* Para aparecer antes do logo em flex-direction column */
-        }
-        @media (max-width: 768px) {
-            .main-nav {
-                display: none; /* Escondido por padrão em mobile */
-                width: 100%;
-                margin-top: 1em;
-            }
-            .main-nav.active {
-                display: block; /* Mostra quando ativo */
-            }
-            .main-nav ul {
-                flex-direction: column;
-                align-items: center;
-            }
-            .main-nav ul li {
-                margin: 0.5em 0;
-            }
-            .menu-toggle {
-                display: block; /* Mostra o botão em mobile */
-            }
-            .itau-header .container {
-                flex-wrap: wrap; /* Permite que o menu vá para baixo */
-            }
-            .itau-header .logo {
-                 margin-bottom: 10px; /* Espaço entre logo e menu hamburguer */
-            }
-            .header-actions{
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                margin-top: 10px;
-            }
-        }
-    `;
-    document.head.appendChild(styleSheet);
-
 });
 
