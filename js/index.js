@@ -1,7 +1,7 @@
-// Script para interatividade do site Itaú Sustentabilidade v2
+// Script para interatividade do site Itaú Sustentabilidade 
 
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Site Itaú Sustentabilidade v2 carregado e pronto!");
+    console.log("Site Itaú Sustentabilidade carregado e pronto!");
 
     // Exemplo: Menu responsivo (hamburger)
     const header = document.querySelector(".itau-header");
