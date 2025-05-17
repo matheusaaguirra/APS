@@ -100,20 +100,20 @@ a:hover {
 }
 
 /* Seção Hero */
-.hero-section {
+.description-section {
     background-color: var(--cor-azul-itau-principal); 
     color: var(--cor-texto-sobre-azul);
     padding: 4em 0;
     text-align: center;
 }
 
-.hero-section h1 {
+.description-section h1 {
     font-family: var(--fonte-display);
     font-size: 3em;
     margin-bottom: 0.5em;
 }
 
-.hero-section p {
+.description-section p {
     font-size: 1.2em;
     margin-bottom: 1.5em;
     max-width: 700px;
@@ -321,7 +321,7 @@ a:hover {
     .header-actions {
         margin-top: 1em;
     }
-    .hero-section h1 {
+    .description-section h1 {
         font-size: 2.5em;
     }
     .text-section h2, .cards-section h2 {
@@ -330,10 +330,10 @@ a:hover {
 }
 
 @media (max-width: 480px) {
-    .hero-section h1 {
+    .description-section h1 {
         font-size: 2em;
     }
-    .hero-section p {
+    .description-section p {
         font-size: 1em;
     }
     .text-section h2, .cards-section h2 {
